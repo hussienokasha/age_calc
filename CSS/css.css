@@ -1,0 +1,144 @@
+body {
+  /* hsl(228, 45%, 44%); */
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 86%);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px 10px 90px;
+  -webkit-border-radius: 10px 10px 90px;
+  -moz-border-radius: 10px 10px 90px;
+  -ms-border-radius: 10px 10px 90px;
+  -o-border-radius: 10px 10px 90px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+input {
+  min-width: 60px;
+  max-width: 90px;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-weight: 800;
+  font-size: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+input + p {
+  padding-top: 5px;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+input:focus {
+  border-color: hsl(259, 100%, 65%);
+}
+.arrow img {
+  background-color: hsl(259, 100%, 65%);
+  width: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  z-index: 1;
+}
+.arrow img:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 2px;
+  background-color: hsl(0, 0%, 86%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.result {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 800;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.result span {
+  color: hsl(259, 100%, 65%);
+}
+/* dark */
+.toggle {
+  background-color: hsl(194, 71%, 42%);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  cursor: pointer;
+}
+.toggle:hover {
+  background-color: rgb(63, 183, 199);
+}
+.toggle svg {
+  color: rgb(252, 252, 252);
+}
+.dark {
+  background-color: rgb(24, 26, 27);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.dark-text {
+  color: rgb(224, 224, 224);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.dark-body {
+  background-color: rgb(44, 48, 50);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.dark-input {
+  background-color: rgb(44, 48, 50);
+  color: rgb(252, 254, 255);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* dark */
